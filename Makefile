@@ -4,7 +4,7 @@
 
 include $(TOPDIR)/rules.mk
 
-LUCI_TITLE:= Luci Support for fan controll
+LUCI_TITLE:= Luci Support for fan control
 
 PKG_NAME:=luci-app-fancontroller
 PKG_VERSION:=0.0.1
@@ -22,7 +22,7 @@ define Package/luci-app-fancontroller/Default
 	SECTION:=luci
 	CATEGORY:=LuCI 
 	SUBMENU:=3. Applications
-	TITLE:=Luci Support for fan controll
+	TITLE:=Luci Support for fan control
 	PKGARCH:=all
 endef
 
