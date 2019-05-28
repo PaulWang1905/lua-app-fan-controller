@@ -26,6 +26,23 @@ define Package/luci-app-fancontroller/Default
 	PKGARCH:=all
 endef
 
+define Package/luci-app-fancontroller/description
+	LuCI support for fan control
+endef
+
+define Build/Compile
+
+endef
+
+define Package/luci-app-fancontroller/postinst
+
+endef
+
+define Package/luci-app-fancontroller/install
+
+endef
+
+
 
 
 
