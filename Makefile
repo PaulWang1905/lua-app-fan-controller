@@ -1,10 +1,11 @@
-# Copyright 2019 Puyu Wang ()
+# Copyright 2019 Puyu Wang <puyuwang@live.com>
 # This is free software, licensed under the GNU General Public License v3.
 # See /LICENSE for more information.
 
 include $(TOPDIR)/rules.mk
 
 LUCI_TITLE:= Luci Support for fan control
+LUCI_DEPENDS:= 
 
 PKG_NAME:=luci-app-fancontroller
 PKG_VERSION:=0.0.1
